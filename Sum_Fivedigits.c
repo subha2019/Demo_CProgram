@@ -22,6 +22,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+#include "SumDigit.h"
 
 int Calculate_Sumdigits(int FivedigitNumber)
 {
