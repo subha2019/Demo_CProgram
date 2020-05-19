@@ -23,16 +23,21 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
-	
-    int n, sum=0;
-    scanf("%d", &n);
-    //To calculate the sum of the five digits on n.
-    while(n)
+int Calculate_Sumdigits(int FivedigitNumber)
+{
+    while(FivedigitNumber)
     {
-     sum = sum+n%10;
-     n= n/10;
+     sum = sum+FivedigitNumber%10;
+     FivedigitNumber= FivedigitNumber/10;
     }
     printf("%d",sum);
+	
+}
+
+
+int main() {
+	
+    int FivedigitNumber, sum=0;
+    Calculate_Sumdigits(FivedigitNumber);
     return 0;
 }
