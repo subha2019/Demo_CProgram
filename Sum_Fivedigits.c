@@ -24,19 +24,6 @@
 #include <stdlib.h>
 #include "SumDigit.h"
 
-void Calculate_Sumdigits(int FivedigitNumber)
-{
-    int sum;
-    while(FivedigitNumber)
-    {
-     sum = sum+FivedigitNumber%10;
-     FivedigitNumber= FivedigitNumber/10;
-    }
-    printf("%d",sum);
-	
-}
-
-
 int main() {
 	
     int FivedigitNumber, sum=0;
