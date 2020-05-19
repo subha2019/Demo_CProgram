@@ -3,4 +3,4 @@
 #include <math.h>
 #include <stdlib.h>
 
-void Calculate_Sumdigits(int FivedigitNumber);
+int Calculate_Sumdigits(int FivedigitNumber);
