@@ -23,7 +23,7 @@
 #include <stdlib.h>
 #include "SumDigit.h"
 
-void Calculate_Sumdigits(int FivedigitNumber)
+int Calculate_Sumdigits(int FivedigitNumber)
 {
     int sum;
     while(FivedigitNumber)
@@ -32,5 +32,6 @@ void Calculate_Sumdigits(int FivedigitNumber)
      FivedigitNumber= FivedigitNumber/10;
     }
     printf("%d",sum);
+    return sum;
 	
 }
