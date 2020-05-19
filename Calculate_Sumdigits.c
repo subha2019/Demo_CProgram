@@ -25,7 +25,7 @@
 
 int Calculate_Sumdigits(int FivedigitNumber)
 {
-    int sum;
+    int sum=0;
     while(FivedigitNumber)
     {
      sum = sum+FivedigitNumber%10;
