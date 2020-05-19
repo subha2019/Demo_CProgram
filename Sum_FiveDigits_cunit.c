@@ -34,11 +34,27 @@ void test_Calculate_Sumdigits(void)
 	
 	 /********************************
 	 TC2
-	 Input: 10000
-	 Output: 1  
+	 Input: 0
+	 Output: 0  
 
 	*********************************/
-	CU_ASSERT(Calculate_Sumdigits(10000) == 1);
+	CU_ASSERT(Calculate_Sumdigits(0) == 0);
+	
+	/********************************
+	 TC3
+	 Input: 111111
+	 Output: 6  
+
+	*********************************/
+	CU_ASSERT(Calculate_Sumdigits(111111) == 6);
+	
+	 /********************************
+	 TC4
+	 Input: 2147483647
+	 Output: 46  
+
+	*********************************/
+	CU_ASSERT(Calculate_Sumdigits(2147483647) == 46);
 }
 int main()
 {
