@@ -31,7 +31,7 @@ int Calculate_Sumdigits(int FivedigitNumber)
      sum = sum+FivedigitNumber%10;
      FivedigitNumber= FivedigitNumber/10;
     }
-    printf("%d",sum);
+    printf("%d\n",sum);
     return sum;
 	
 }
