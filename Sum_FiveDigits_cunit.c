@@ -30,7 +30,8 @@ void test_Calculate_Sumdigits(void)
 	 Output: 16  
 
 	*********************************/
-	CU_ASSERT(Calculate_Sumdigits(10564) == 16);
+	CU_ASSERT(Calculate_Sumdigits(0) == 0);
+	CU_ASSERT(Calculate_Sumdigits(10) == 10);
 }
 int main()
 {
