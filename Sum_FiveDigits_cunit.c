@@ -35,8 +35,8 @@ void test_Calculate_Sumdigits(void)
 int main()
 {
 	CU_initialize_registry();
-	CU_pSuite suite = CU_add_suite("test_UnderVoltage", 0, 0);
-	CU_add_test(suite, "test_UnderVoltage", test_UnderVoltage);
+	CU_pSuite suite = CU_add_suite("Calculate_Sumdigits", 0, 0);
+	CU_add_test(suite, "test_Calculate_Sumdigits", test_Calculate_Sumdigits);
 	CU_basic_set_mode(CU_BRM_VERBOSE);
 	CU_basic_run_tests();
 	CU_cleanup_registry();
