@@ -26,7 +26,7 @@
 
 int main() {
 	
-    int FivedigitNumber;
+    int FivedigitNumber=0;
     Calculate_Sumdigits(FivedigitNumber);
     return 0;
 }
