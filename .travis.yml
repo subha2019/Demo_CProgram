@@ -10,8 +10,6 @@ install:
 
 script:
   - echo "Reached Script Section"
- # - gcc   StringReverse.c -o output
- # - ./output
  - gcc   Sum_Fivedigits.c Calculate_Sumdigits.c -o output
  - ./output
  # - echo "Reached Script Section - cunit_democode"
