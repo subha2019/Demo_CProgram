@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-  char str[100]="NIAWS TIHSRAD\n", strrev[100];
+  //char str[100]="NIAWS TIHSRAD\n", strrev[100];
   printf("\nEnter the string to be reverse");
   //int i,j;
   //while(str[i]!='\n')
