@@ -6,7 +6,7 @@ int main()
   printf("\nEnter the string to be reverse");
   str[100]="NIAWS TIHSRAD\n";
   int i,j;
-  while(str[i]!=\n)
+  while(str[i]!='\n')
   {
      j++;
   }
