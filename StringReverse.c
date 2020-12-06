@@ -10,13 +10,13 @@ int main()
      j++;
   }
   printf("%d",j);
-  i=0;
+  /*i=0;
   for(i=0;i<j;i++)
   {
     strrev[i]=str[j];
     i++;
     j--;
-  }
+  }*/
  
 }
 
