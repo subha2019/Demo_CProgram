@@ -4,15 +4,16 @@ compiler:
   - gcc
 before_install:
   - sudo apt-get update
-  #- sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
+  - sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
 install:
   - echo  "Reached Install Section"
 
 script:
   - echo "Reached Script Section"
-  - gcc   StringReverse.c -o output
-  - ./output
- #- gcc   Sum_Fivedigits.c Calculate_Sumdigits.c -o output
+ # - gcc   StringReverse.c -o output
+ # - ./output
+ - gcc   Sum_Fivedigits.c Calculate_Sumdigits.c -o output
+ - ./output
  # - echo "Reached Script Section - cunit_democode"
  #- gcc   	Sum_FiveDigits_cunit.c Calculate_Sumdigits.c -o cunit_Sum_FiveDigits -lcunit
  #- ./cunit_Sum_FiveDigits
