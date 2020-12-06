@@ -12,4 +12,7 @@ script:
   - echo "Reached Script Section"
   - gcc   StringReverse.c -o output
   - ./output
-
+ #- gcc   Sum_Fivedigits.c Calculate_Sumdigits.c -o output
+ # - echo "Reached Script Section - cunit_democode"
+ #- gcc   	Sum_FiveDigits_cunit.c Calculate_Sumdigits.c -o cunit_Sum_FiveDigits -lcunit
+ #- ./cunit_Sum_FiveDigits
